@@ -65,6 +65,16 @@ button.appointment {
   
   .carouDetails {
     top: 10%;
+    right: 0;
+    @media (max-width: 767px) {
+      right: 20%;
+      }
+    h1 {
+      @media (max-width: 767px) {
+      font-size: 24px;
+      }
+    }
+    
   }
 }
 
@@ -81,5 +91,10 @@ button.appointment {
     align-items: center;
     justify-content: center;
     border-radius: 50%;
+    @media (max-width: 767px) {
+      height: 20px;
+    width: 20px;
+      font-size: 16px;
+      }
   }
 }

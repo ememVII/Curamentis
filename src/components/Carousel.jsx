@@ -18,7 +18,7 @@ function Carousel() {
     <div className="carousel-item">
       <img src={img01} className="d-block w-100" alt="..."/>
     </div>
-    <div className="carouDetails position-absolute end-0 w-50 text-light">
+    <div className="carouDetails position-absolute w-50 text-light">
         <h1>Online-Psychotherapie per Video – zeitnah, einfühlsam & kompetent</h1>
             <p>Wissenschaftlich fundierte, moderne Behandlungsmethoden</p>
             <button className="appointment">Terminvereinbarung</button>
