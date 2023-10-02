@@ -1,15 +1,15 @@
 function Services() {
   return (
-    <section id="services" className="d-flex justify-content-between flex-wrap">
-        <div className="d-flex">
+    <section id="services" className="row mx-auto">
+        <div className="col-12 col-lg-4 my-4 gap-1 d-flex">
           <i className="fa-regular fa-star"></i>
           <h6>Erfahrene psychologische Psychotherapeuten</h6>
         </div>
-        <div className="d-flex">
+        <div className="col-12 col-lg-4 my-4 gap-1 d-flex">
           <i className="fa-regular fa-star"></i>
           <h6>Kurze Wartezeiten & flexible Terminvereinbarungen</h6>
         </div>
-        <div className="d-flex">
+        <div className="col-12 col-lg-4 my-4 gap-1 d-flex">
           <i className="fa-regular fa-star"></i>
           <h6>Empathische & individuelle Psychotherapie</h6>
         </div>
