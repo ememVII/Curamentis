@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Libre+Baskerville&display=swap');
+
+$customFont: '/Bell MT.ttf';
+$headerFont: 'Cormorant Garamond', serif;
+
 * {
   padding: 0;
   margin: 0;
@@ -13,6 +18,7 @@
 }
 
 body {
+  font-family: $customFont;
   overflow-x: hidden;
 }
 
@@ -29,7 +35,7 @@ body {
 
 nav {
   display: flex;
-  justify-content: space-between !important;
+  justify-content: space-around !important;
   align-items: center;
   background-color: #fff;
 
@@ -61,40 +67,52 @@ button.appointment {
       height: 10px;
       border-radius: 50%;
     }
+    .active {
+      background-color: var(--brown);
+    }
   }
-  
+
   .carouDetails {
-    top: 10%;
+    top: 50%;
     right: 0;
+    transform: translateY(-50%);
     @media (max-width: 767px) {
-      right: 20%;
-      }
+      right: 5%;
+    }
     h1 {
+      font-family: $headerFont;
       @media (max-width: 767px) {
-      font-size: 24px;
+        font-size: 24px;
       }
     }
-    
   }
 }
 
 #services {
   background-color: var(--beige);
-  padding: 3rem;
+  padding: 100px 70px;
+  h6 {
+    font-family: Cormorant Garamond;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 0 !important;
+    line-height: none;
+  }
   i {
     margin-right: 0.5rem;
     background-color: var(--apricot);
     color: #fff;
-    height: 30px;
-    width: 30px;
+    height: 27px;
+    width: 27px;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
     @media (max-width: 767px) {
       height: 20px;
-    width: 20px;
+      width: 20px;
       font-size: 16px;
-      }
+    }
   }
 }
